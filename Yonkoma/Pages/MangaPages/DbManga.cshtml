@@ -1,0 +1,33 @@
+﻿@page
+@model Yonkoma.Pages.MangaPages.DbMangaModel
+@{
+    ViewData["Title"] = "Список манги";
+}
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr><th>Название</th><th>Тип</th><th>Дата релиза</th><th>Статус перевода</th><th>Рейтинг</th><th>Жанры</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (var manga in Model.MangaPages)
+        {
+        <tr>
+            <td>@manga.Name</td>
+            <td>@manga.Type</td>
+            <td>@manga.Data</td>
+            <td>@manga.Status</td>
+            <td>@manga.Rating</td>
+            <td>@manga.Genres</td>
+            <td>
+                <form method="post">
+                    <a asp-page="Edit" asp-route-id="@manga.Id">Изменить</a>
+                    <button type="submit" asp-page-handler="delete" asp-route-id="@manga.Id">
+                        Удалить
+                    </button>
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,709 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Обеспечьте достаточный контраст на белом фоне */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Прикрепленные стили нижнего колонтитула
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Прикрепленные стили нижнего колонтитула
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Нижняя граница по высоте нижнего колонтитула */
+    margin-bottom: 60px;
+    
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Вертикально центрируйте текст там */
+}
+
+.logo {
+    position: relative;
+    left: 750px;
+}
+
+.menu {
+    width: 975px;
+    height: 350px;
+    background-color: gray;
+    position: relative;
+    top: 5px;
+    left: 100px;
+    
+}
+
+.mnu{
+    width: 765px;
+    height: 920px;
+    background-color: gray;
+    position: relative;
+    left: 100px;
+
+}
+
+
+
+
+.photo p {
+    text-align: center
+}
+
+.photo {
+    max-width: 180px;
+}
+
+.imga {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    max-width: 190px;
+}
+
+    .imga p {
+        text-align: center;
+    }
+
+.imga1 {
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    max-width: 180px;
+}
+
+.imga2 {
+    position: absolute;
+    left: 600px;
+    top: 60px;
+    max-width: 200px;
+}
+
+    .imga2 p {
+        text-align: center;
+    }
+
+.imga3 {
+    position: absolute;
+    left: 800px;
+    top: 60px;
+    max-width: 200px;
+}
+
+    .imga3 p {
+        text-align: center;
+    }
+
+.light {
+    text-decoration: none;
+    color: white;
+}
+
+    .light:hover {
+        color: orange;
+    }
+
+
+
+.photo1 p {
+    text-align: center
+}
+
+.photo1 {
+    max-width: 350px;
+}
+
+.imgaa {
+    position: absolute;
+    left: 430px;
+    top: 67px;
+    max-width: 400px;
+}
+
+    .imgaa p {
+        text-align: center;
+    }
+
+.imgaa1 {
+    position: absolute;
+    top: 500px;
+    max-width: 450px;
+}
+
+    .imgaa1 p {
+        text-align: center;
+    }
+
+.imgaa2 {
+    position: absolute;
+    left: 350px;
+    top: 500px;
+}
+
+.imgaa1 p {
+    text-align: center;
+}
+
+
+.news {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.new1 {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.new2 {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 350px;
+    margin-left: 10px;
+}
+
+
+.jus {
+    text-align: justify;
+}
+
+.mnu1{
+    width: 200px;
+    height: 920px;
+    background-color: gray;
+    position: relative;
+    bottom: 797px;
+    left: 775px;
+}
+
+hr {
+    border: none;
+    color: orange;
+    background-color: orange;
+    height: 2px;
+}
+
+.popular img {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 5px
+}
+
+
+img {
+    cursor: pointer;
+    border: 1px solid #FFF;
+}
+
+im:hover {
+    border: 1px solid yellow;
+}
+.contentmeiker {
+    position: absolute;
+    background-color: gray;
+    height: 600px;
+    width: 1000px;
+    left: 300px;
+    top: 200px;
+}
+
+#hello {
+    width: 800px;
+    height: 800px;
+    background-color: gray;
+    position: relative;
+    bottom: 15px;
+    right: 0px;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#mangaright {
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    position: relative;
+    bottom: 1px;
+    left: 830px;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#mr1 {
+    position: relative;
+    background-color: gray;
+    width: 298px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+select {
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0;
+    background: gray;
+    color: black;
+    -webkit-appearance: none; /*убираем галочку в webkit-браузерах*/
+    -moz-appearance: none; /*убираем галочку в Mozilla Firefox*/
+}
+
+/*1 ряд*/
+.img11 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    max-width: 400px;
+}
+
+.img12 {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    max-width: 400px;
+}
+
+.img13 {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    max-width: 400px;
+}
+
+.img14 {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+    max-width: 400px;
+}
+
+/*2 ряд*/
+
+.img21 {
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    max-width: 400px;
+}
+
+.img22 {
+    position: absolute;
+    left: 200px;
+    top: 260px;
+    max-width: 400px;
+}
+
+.img23 {
+    position: absolute;
+    left: 400px;
+    top: 260px;
+    max-width: 400px;
+}
+
+.img24 {
+    position: absolute;
+    left: 600px;
+    top: 260px;
+    max-width: 400px;
+}
+
+/*3 ряд*/
+
+.img31 {
+    position: absolute;
+    left: 10px;
+    top: 510px;
+    max-width: 400px;
+}
+
+.img32 {
+    position: absolute;
+    left: 200px;
+    top: 510px;
+    max-width: 400px;
+}
+
+.img33 {
+    position: absolute;
+    left: 400px;
+    top: 510px;
+    max-width: 400px;
+}
+
+.img34 {
+    position: absolute;
+    left: 600px;
+    top: 510px;
+    max-width: 400px;
+}
+#hello {
+    width: 800px;
+    height: 800px;
+    background-color: gray;
+    position: relative;
+    bottom: 15px;
+    right: 0px;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#mangaright {
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    position: relative;
+    bottom: 1px;
+    left: 830px;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#mr1 {
+    position: relative;
+    background-color: gray;
+    width: 298px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+select {
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0;
+    background: gray;
+    color: black;
+    -webkit-appearance: none; /*убираем галочку в webkit-браузерах*/
+    -moz-appearance: none; /*убираем галочку в Mozilla Firefox*/
+}
+
+/*1 ряд*/
+.img11 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    max-width: 400px;
+}
+
+.img12 {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    max-width: 400px;
+}
+
+.img13 {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    max-width: 400px;
+}
+
+.img14 {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+    max-width: 400px;
+}
+
+/*2 ряд*/
+
+.img21 {
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    max-width: 400px;
+}
+
+.img22 {
+    position: absolute;
+    left: 200px;
+    top: 260px;
+    max-width: 400px;
+}
+
+.img23 {
+    position: absolute;
+    left: 400px;
+    top: 260px;
+    max-width: 400px;
+}
+
+.img24 {
+    position: absolute;
+    left: 600px;
+    top: 260px;
+    max-width: 400px;
+}
+
+/*3 ряд*/
+
+.img31 {
+    position: absolute;
+    left: 10px;
+    top: 510px;
+    max-width: 400px;
+}
+
+.img32 {
+    position: absolute;
+    left: 200px;
+    top: 510px;
+    max-width: 400px;
+}
+
+.img33 {
+    position: absolute;
+    left: 400px;
+    top: 510px;
+    max-width: 400px;
+}
+
+.img34 {
+    position: absolute;
+    left: 600px;
+    top: 510px;
+    max-width: 400px;
+}
+
+#container_content {
+    width: 800px;
+    height: 800px;
+    background-color: gray;
+    position: relative;
+    bottom: 15px;
+    right: 0px;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+#content_title {
+    text-align: center;
+    position: relative;
+    width: 800px;
+    height: 70px;
+    background-color: gray;
+    bottom: 15px;
+    border-radius: 5px;
+}
+
+.manga_image {
+    position: relative;
+    width: 270px;
+    height: 500px;
+    background-color: gray;
+    left: 10px;
+    top: 10px;
+}
+
+.manga_buttons {
+    position: relative;
+    width: 270px;
+    height: 100px;
+    background-color: gray;
+    top: 20px;
+}
+
+.manga_info {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    bottom: 490px;
+    left: 285px;
+}
+
+.manga_chapters {
+    position: relative;
+    width: 780px;
+    height: 240px;
+    background-color: gray;
+    bottom: 480px;
+    left: 5px;
+}
+
+.manga_chapters_title {
+    position: relative;
+    width: 780px;
+    height: 30px;
+    background-color: gray;
+    bottom: 480px;
+    left: 5px;
+}
+
+.image {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: gray;
+    left: 10px;
+    top: 10px;
+}
+
+.info_list_row {
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.chapters_list_row {
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.reblock {
+    width: 500px;
+    height: 500px;
+    background-color: darkslategray;
+    position: relative;
+    left: 290px;
+    top: 120px;
+    border: solid;
+    border-color: darkslategray;
+    border-radius: 15px;
+    
+}
+
+.reblock5 {
+    width: 500px;
+    height: 790px;
+    background-color: darkslategray;
+    position: relative;
+    left: 290px;
+
+    border: solid;
+    border-color: darkslategray;
+    border-radius: 15px;
+}
+
+.reblval{
+    position: relative;
+    left: 290px;
+    top: 150px;
+}
+
+.rebblock{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.in {
+    height: auto !important;
+    padding: 8px 12px !important;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+
+}
+
+.butd {
+    height: 35px;
+    background-color: orange;
+    border: solid;
+    border-color: orange;
+    border-radius: 10px;
+    position: relative;
+    left: 35px;
+}
+
+.butd1 {
+    height: 35px;
+    background-color: orange;
+    border: solid;
+    border-color: orange;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.reblock1{
+    position: relative;
+    left: 150px;
+    top: 30px;
+
+}
+hr{
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+
+.hrd{
+    position:relative;
+    right:1px;
+}
+

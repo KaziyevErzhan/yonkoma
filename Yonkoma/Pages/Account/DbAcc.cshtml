@@ -1,0 +1,31 @@
+﻿@page
+@model Yonkoma.Pages.Account.DbAccModel
+
+@{
+    ViewData["Title"] = "Список пользователей";
+}
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr><th>Логин</th><th>Email</th><th>Password</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model.Account)
+        {
+        <tr>
+            <td>@account.Login</td>
+            <td>@account.Email</td>
+            <td>@account.Password</td>
+            <td>
+                <form method="post">
+                    <a asp-page="Edit" asp-route-id="@account.Id">Изменить</a>
+                    <button type="submit" asp-page-handler="delete" asp-route-id="@account.Id">
+                        Удалить
+                    </button>
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

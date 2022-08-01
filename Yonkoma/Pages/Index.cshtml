@@ -1,0 +1,101 @@
+﻿@page
+@model IndexModel
+@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Yonkoma";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yonkoma</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+</head>
+<body>
+    <div class="content">
+        <div class="menu">
+            <h2 style="margin: 15px; ">Лучшее за неделю</h2>
+            <div class="photo">
+                <img style="width: 150px; height: 203px; margin-left: 15px; border: 0; border-radius: 10px;" src="~/image/solo.jpg">
+                <a class="light" href="#"><p>Поднятия уровня в одиночку</p></a>
+            </div>
+            <div class="imga">
+                <img style="width: 150px; height: 200px; border: 0; border-radius: 10px;" src="~/image/sistema.jpg">
+                <a class="light" href="#"><p>Столичная система</p></a>
+            </div>
+            <div class="imga1">
+                <img style="width: 150px; height: 200px; border: 0; border-radius: 10px;" src="~/image/izmenshik.jpg">
+                <a class="light" href="#"><p>Изменщик должен умереть</p></a>
+            </div>
+
+            <div class="imga2">
+                <img style="width: 150px; height: 200px; border: 0; border-radius: 10px;" src="~/image/mech'.jpg">
+                <a class="light" href="#"><p>Путь меча</p></a>
+            </div>
+
+            <div class="imga3">
+                <img style="width: 150px; height: 200px; border: 0; border-radius: 10px;" src="~/image/luna.jpg">
+                <a class="light" href="#"><p>Зимняя луна</p></a>
+            </div>
+        </div>
+
+        <div class="mnu">
+            <h2 style="margin: 15px; ">Новости</h2>
+            <div class="jus">
+                <p>
+                    <img src="./image/news.jpg" class="news">
+                    Издательство Alt Graph вновь издаёт мангу Хироаки Самуры.
+                    В этот раз до Российского читателя добралась культовая серия «Клинок бессмертного».
+                    Книги издаются в формате омнибусов (2 в 1), твёрдом переплёте, без супер обложки.
+                    Всего в серии планируется 15 омнибусов, которые будут содержать оригинальные 30 томов.  
+                    Первых два омнибуса уже в печати и доступны для предзаказа с бонусами на сайте alt-graph.ru. 
+                    Ориентировочная дата поступления на склад: 20.11.2020.
+                </p>
+            </div><br>
+            <div class="jus">
+                <p>
+                    <img src="./image/news2.jpg" class="new1">
+                    Сайт Shonen Jump+ выложил новую мангу Амано Акиры "Запретные расследования Камонохаси Рона" (Kamonohashi Ron no Kindan Suiri).
+                    Это серия детективов, посвященная необычному сыщику Камонохаси Рону и наивному полицейскому инспектору Иссики Тотомару.  
+                </p>
+            </div><br><br><br><br><br><br>
+            <div class="jus">
+                <p>
+                    <img src="./image/news4.jpg" class="new2">
+                    Сайт Shonen Jump+ выложил новую мангу Амано Акиры "Запретные расследования Камонохаси Рона" (Kamonohashi Ron no Kindan Suiri).
+                    Это серия детективов, посвященная необычному сыщику Камонохаси Рону и наивному полицейскому инспектору Иссики Тотомару.  
+                </p>
+            </div>
+            <div class="jus">
+                <p style="position: absolute; bottom: 10px; margin-left:15px;">
+                    Манга - это японские комиксы.
+                    Манга пользуется огромной популярностью во всем мире, и читают ее практически в каждой стране.
+                </p>
+            </div>
+            <div class="mnu1">
+                <h4 style="text-align: center;">Популярные манги</h4>
+                <hr class="hrd" />
+                <div>
+                    <div class="popular">
+                        <img src="./image/solo.jpg">
+                    </div>
+                    <hr class="hrd" />
+                    <div class="popular">
+                        <img src="./image/vanpa.jpg">
+                    </div>
+                    <hr class="hrd" />
+                    <div class="popular">
+                        <img src="./image/bnha.jpg">
+                    </div>
+                    <hr class="hrd" />
+                    <div class="popular">
+                        <img src="./image/clever.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

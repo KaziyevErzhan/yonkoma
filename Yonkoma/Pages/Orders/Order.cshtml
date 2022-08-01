@@ -1,0 +1,33 @@
+﻿@page
+@model Yonkoma.Pages.Orders.OrderModel
+<form method="post">
+    <div class="reblock5">
+        <div class="reblock1">
+            <h2>Заказ</h2>
+            <hr />
+        </div>
+        <div class="rebblock">
+            <label for="Name">Название</label><br />
+            <input class="in" type="text" name="Name" placeholder="Введите название манги" /><br /><br />
+
+            <label for="Count">Количество</label><br />
+            <input class="in" type="text" name="Count" placeholder="Введите количество" /><br /><br />
+
+            <label for="Thom">Том</label><br />
+            <input class="in" type="text" name="Thom" placeholder="Введите номер тома" /><br /><br />
+
+            <label for="Chapter">Глава</label><br />
+            <input class="in" type="text" name="Chapter" placeholder="Введите номер главы" /><br /><br />
+
+            <label for="Address">Адрес доставки</label><br />
+            <input class="in" type="text" name="Address" placeholder="Введите свой адрес" /><br /><br />
+
+            <label for="Money">Метод оплаты</label><br />
+            <input class="in" type="text" name="Money" placeholder="Введите метод оплаты" /><br /><br />
+
+            <a asp-area="" asp-page="/Index"><input type="submit" name="otpr" value="Сделать заказ" class="butd"></a>
+        </div>
+    </div>
+
+</form>
+<div class="reblval" asp-validation-summary="All"></div>

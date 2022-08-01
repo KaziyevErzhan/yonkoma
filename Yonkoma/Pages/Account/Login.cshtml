@@ -1,0 +1,22 @@
+﻿@page
+@model Yonkoma.Pages.Account.LoginModel
+
+<form method="post" asp-page="Login">
+    <div class="reblock">
+        <div class="reblock1">
+            <h2>Авторизация</h2>
+            <hr />
+        </div>
+        <div class="rebblock">
+            <label for="Email">Email</label><br />
+            <input class="in" type="text" name="Email" placeholder="Введите свой Email" /><br /><br />
+
+            <label for="Password">Пароль</label><br />
+            <input class="in" type="password" name="Password" placeholder="Введите свой Пароль" /><br /><br />
+
+            <a asp-area="" asp-page="/Account/Login"><input type="submit" name="otpr" value="Вход" class="butd1"></a>
+        </div>
+
+    </div>
+</form>
+<div class="reblval" asp-validation-summary="ModelOnly"></div>

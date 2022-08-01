@@ -1,0 +1,35 @@
+﻿@page
+@model Yonkoma.Pages.Account.EditModel
+@{
+    ViewData["Title"] = "Редактирование пользователя";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    <input asp-for="Users.Id" type="hidden" />
+    <div>
+        <label>Логин</label>
+        <div>
+            <input asp-for="Users.Login" />
+            <span asp-validation-for="Users.Login"></span>
+        </div>
+    </div>
+    <div>
+        <label>Email</label>
+        <div>
+            <input asp-for="Users.Email" />
+            <span asp-validation-for="Users.Email"></span>
+        </div>
+    </div>
+    <div>
+        <label>Password</label>
+        <div>
+            <input asp-for="Users.Password" type="password" />
+            <span asp-validation-for="Users.Password"></span>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="Сохранить" />
+    </div>
+</form>
